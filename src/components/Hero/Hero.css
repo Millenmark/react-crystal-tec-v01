@@ -45,17 +45,19 @@
   font-size: 1.1em;
   font-weight: 500;
   margin-top: 2rem;
-  padding: .3rem .6rem;
-  border-radius: 8px;
+  padding: .3rem .8rem;
+  /* border-radius: 8px; */
   border: none;
   color: white;
-  background: var(--primary-color-400);
+  background: var(--primary-color-200);
   cursor: pointer;
+  transition: all .1s ease;
 }
 
 .cta:hover, .cta:active {
-  background: var(--primary-color-500);
-  outline: var(--primary-color-200) 2px solid;
+  /* background: var(--primary-color-400);
+  outline: var(--primary-color-200) 2px solid; */
+  transform: scale(1.05);
 }
 
 @media only screen and (min-width: 440px) {
