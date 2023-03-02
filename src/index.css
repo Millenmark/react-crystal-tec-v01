@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+  --primary-color-200: #009fff;
+  --primary-color-400: #156595;
+  --primary-color-500: #145177;
+}
 /* Box sizing rules */
 *,
 *::before,
@@ -35,6 +40,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  color: #333;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -83,11 +89,8 @@ a {
   }
 }
 
-.header {
-  z-index: 1;
-  background-color: brown;
-  width: 100%;
-  position: fixed;
+.page-container {
+  /* padding-top: 5rem; */
 }
 
 .container {
@@ -95,8 +98,4 @@ a {
   margin-inline: auto;
   padding: 1rem;
   padding-top: 4rem;
-}
-
-.footer {
-  background-color: brown;
 }

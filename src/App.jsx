@@ -1,11 +1,12 @@
 import { BrowserRouter, Route, RouterProvider, Routes } from "react-router-dom"
-import Navbar from "./components/Navbar"
-import About from "./pages/About"
-import Contact from "./pages/Contact"
+import Navbar from "./components/Navbar/Navbar"
 
-import Home from "./pages/Home"
-import Processes from "./pages/Processes"
-import Services from "./pages/Services"
+
+import HomePage from "./pages/HomePage"
+import ProcessesPage from "./pages/ProcessesPage"
+import AboutPage from "./pages/AboutPage"
+import ContactPage from "./pages/ContactPage"
+import ServicesPage from "./pages/ServicesPage"
 function App() {
   
 
@@ -13,13 +14,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navbar/>
-        <div className="container">
+        <div className="page-container">
           <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="about" element={<About/>}></Route>
-            <Route path="services" element={<Services/>}></Route>
-            <Route path="processes" element={<Processes/>}></Route>
-            <Route path="contact" element={<Contact/>}></Route>
+            <Route path="/" element={<HomePage/>}></Route>
+            <Route path="about" element={<AboutPage/>}></Route>
+            <Route path="services" element={<ServicesPage/>}></Route>
+            <Route path="processes" element={<ProcessesPage/>}></Route>
+            <Route path="contact" element={<ContactPage/>}></Route>
           </Routes>
         </div>
       </BrowserRouter>
