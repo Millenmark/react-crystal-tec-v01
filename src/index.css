@@ -96,6 +96,6 @@ a {
 .container {
   width: min(100% - 1rem, 1120px);
   margin-inline: auto;
-  padding: 1rem;
+  padding-inline: 1rem;
   /* padding-top: 4rem; */
 }

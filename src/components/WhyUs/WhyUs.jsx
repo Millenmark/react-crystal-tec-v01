@@ -18,7 +18,7 @@ const WhyUs = () => {
             <p>Crystal Tec is a trusted IT Managed Service Provider specializing in Windows server, network maintenance, cyber security, and cloud computing hosted services. Our expertise in the hospitality and medical industries in the Sydney and Brisbane areas sets us apart from the competition.</p>
             <br/>
             <p>We work closely with our clients to provide customized solutions that meet their unique needs, ensuring their technology infrastructure is reliable and efficient. Choose Crystal Tec as your partner in success through technology.</p>
-            <WithArrowButton pathTo={"about"} titleBtn={"Learn More"}/>
+            <WithArrowButton pathTo={"#"} titleBtn={"Book Appointment"}/>
           </div>
         </div>
         

@@ -10,6 +10,7 @@
 
 .why-us-section h2 {
   /* position: relative; */
+  padding-top: 2.5rem;
   color: white;
   margin-block: 2rem;
 }
@@ -34,7 +35,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 10px;
   /* background-color: white; */
 }
