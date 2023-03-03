@@ -12,7 +12,7 @@ const WhyUs = () => {
         <h2>Why Crystal Tec?</h2>
         <div className='why-us-wrapper'>
           <div className="why-us-image">
-            <img src="../../../public/assets/images/company_image.jpg" alt="" />
+            <img src="../../../assets/images/company_image.jpg" alt="" />
           </div>
           <div className="why-us-text">
             <p>Crystal Tec is a trusted IT Managed Service Provider specializing in Windows server, network maintenance, cyber security, and cloud computing hosted services. Our expertise in the hospitality and medical industries in the Sydney and Brisbane areas sets us apart from the competition.</p>
