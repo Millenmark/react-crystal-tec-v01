@@ -16,11 +16,11 @@ const ClientCarousel = () => {
           onSwiper={(swiper) => console.log(swiper)}
           className="client-swiper"
         >
-          <SwiperSlide><img className="client-swiper-image" src="../../../public/assets/images/pullman_logo.jpeg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/pullman_logo.jpeg" alt="" /></SwiperSlide>
 
-          <SwiperSlide><img className="client-swiper-image" src="../../../public/assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
 
-          <SwiperSlide><img className="client-swiper-image" src="../../../public/assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
+          <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
           <SwiperSlide>Slide 3</SwiperSlide>
           <SwiperSlide>Slide 4</SwiperSlide>
           <SwiperSlide>Slide 2</SwiperSlide>
