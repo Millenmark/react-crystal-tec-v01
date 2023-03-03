@@ -18,6 +18,7 @@
 }
 
 .client-swiper {
+  margin-bottom: 4rem;
   cursor: grab;
 }
 
@@ -36,6 +37,11 @@
 
 .swiper-desktop {
   display: none;
+  position: relative;
+}
+
+.swiper-wrapper {
+  margin-bottom: 3rem;
 }
 
 /* Displaying swiper ny their media queries */

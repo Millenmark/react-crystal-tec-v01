@@ -1,5 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Pagination } from 'swiper';
 import 'swiper/css';
+import 'swiper/css/pagination';
 
 const index = () => {
   return (
@@ -10,6 +12,7 @@ const index = () => {
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
             className="client-swiper"
+            pagination={{clickable: true}}
           >
             <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/pullman_logo.jpeg" alt="" /></SwiperSlide>
 
