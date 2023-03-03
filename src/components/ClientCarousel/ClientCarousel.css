@@ -7,13 +7,13 @@
 }
 
 .client-carousel-wrapper {
-  margin-inline: 5rem;
+  margin-inline: 1rem;
   padding-inline: 1rem;
 }
 
 .client-carousel-wrapper h2 {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
@@ -23,7 +23,42 @@
 
 .client-swiper-image {
   width: 250px;
-  max-height: 90px;
+  height: 90px;
+  margin: 0 auto;
   object-fit: fill;
   object-position: center;
+}
+
+/* undisplaying the swiper if not met their media queries */
+.swiper-tablet {
+  display: none;
+}
+
+.swiper-desktop {
+  display: none;
+}
+
+/* Displaying swiper ny their media queries */
+@media screen and (min-width: 600px) {
+  .swiper-mobile {
+    display: none;
+  }
+
+  .swiper-tablet {
+    display: block;
+  }
+
+  .swiper-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .swiper-tablet {
+    display: none;
+  }
+
+  .swiper-desktop{
+    display: block;
+  }
 }
