@@ -1,0 +1,50 @@
+.service-card-item {
+  margin-top: 1rem;
+  /* border-top: 3px solid var(--primary-color-200); */
+  border-bottom: 3px solid var(--primary-color-200);
+  position: relative;
+  padding: .5rem;
+  max-width: 250px;
+  height: 290px;
+  transition: all .4s ease !important;
+  /* border: 1px solid rgba(185, 185, 185, 0.541); */
+}
+
+.service-card-item:hover {
+  border-radius: 5px;
+  background-color: white;
+  transform: scale(1.05) !important;
+  border: none;
+
+  box-shadow: 0px 0px 10px 1px rgba(19, 132, 207, 0.1);
+}
+
+.service-card-heading img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.service-card-body {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 70px;
+  margin-top: .5rem;
+}
+
+.read-more-btn {
+  color: var(--primary-color-400);
+  position: absolute;
+  bottom: 1rem;
+  transition: all .04s ease-out;
+}
+
+.read-more-btn:hover {
+  color: var(--primary-color-200);
+  font-weight: 600;
+  transform: scale(1.03);
+}

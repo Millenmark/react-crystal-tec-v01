@@ -1,0 +1,25 @@
+
+.secret-btn {
+  cursor: pointer;
+  position: relative;
+  margin-top: 1.5rem;
+  padding: .5rem .8rem;
+  padding-right: 2.4rem;
+  border: none;
+  font-weight: 500;
+  color: white;
+  background-color: var(--primary-color-200);
+  transition: all .15s ease;
+}
+
+.secret-btn:hover {
+  transform: scale(1.05);
+}
+
+.secret-btn-icon {
+  position: absolute;
+  font-size: 1.3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: .6rem;
+}

@@ -1,0 +1,12 @@
+.client-carousel-section {
+  width: 100%;
+  left: 0;
+  padding-inline: 1.5rem;
+  padding-bottom: 5rem;
+  background-color: #f3f3f3;
+}
+
+.client-carousel-wrapper {
+  margin-inline: 5rem;
+  padding-inline: 1rem;
+}

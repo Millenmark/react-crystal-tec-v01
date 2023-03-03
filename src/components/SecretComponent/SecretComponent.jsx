@@ -1,16 +1,17 @@
-
-import {AiOutlineArrowRight, AiOutlineCheckCircle} from 'react-icons/ai'
-import { Link } from 'react-router-dom'
+import {AiOutlineCheckCircle} from 'react-icons/ai'
 
 import './SecretComponent.css'
+import WithArrowButton from '../WithArrowButton/WithArrowButton'
 
 const SecretComponent = () => {
   return (
     <>
-      <div className="secret-wrapper">
+      <div className="secret-wrapper container">
         <div className="secret-highlight">
           <h2>Our technology allows you to offer the <span>latest software</span> to your possible customers!</h2>
-          <Link to="about"><button className="secret-btn">More about us <AiOutlineArrowRight className="secret-btn-icon"/></button></Link>
+          <WithArrowButton 
+          pathTo={"about"} 
+          titleBtn={"More About Us"}/>
         </div>
         <div className="secret-highlight">
           <p>improve efficiency, leverage tech, and provide better customer experiences with the modern technology services available allover the world. Our skilled personnel, utilizing the latest processing software, combined with decades of experience</p>
