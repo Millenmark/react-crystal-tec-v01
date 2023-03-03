@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Pagination } from 'swiper';
+import { Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -7,6 +7,7 @@ const index = () => {
   return (
     <div className="swiper-mobile">
           <Swiper
+            modules={[Pagination]}
             spaceBetween={20}
             slidesPerView={1}
             onSlideChange={() => console.log('slide change')}
