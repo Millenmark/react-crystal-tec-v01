@@ -19,7 +19,10 @@ header.active {
 }
 
 .logo-div {
-  width: 200px;
+  display: grid;
+  place-items: center;
+  margin-right: 5rem;
+  width: clamp(100px, 40vh, 200px);
   height: 50px;
 }
 
@@ -44,7 +47,7 @@ header.active {
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 930px) {
   .nav-btn {
     display: block;
   }
