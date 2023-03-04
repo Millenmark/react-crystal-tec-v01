@@ -2,7 +2,9 @@ import './MarketPartners.css'
 
 const MarketPartners = () => {
   return (
-    <div>MarketPartners</div>
+    <div className="market-partners-section">
+      MarketPartners
+    </div>
   )
 }
 
