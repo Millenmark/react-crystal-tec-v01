@@ -1,0 +1,31 @@
+.testimonial-card-item {
+  border-radius: 8px;
+  position: relative;
+  color: white;
+  background-color: var(--primary-color-400);
+  max-width: 340px;
+  height: fit-content;
+  padding: 2rem;
+  padding-top: 4.5rem;
+  transition: all .2s ease-out;
+  /* cursor: pointer; */
+}
+
+/* .testimonial-card-item:nth-child(even) {
+  transform: scale(1.05);
+} */
+
+.testimonial-icon {
+  position: absolute;
+  font-size: 4rem;
+  top: .5rem;
+  left: 1rem;
+}
+
+.testimonial-info {
+  padding-top: 1.5rem;
+  border-top: 2px white dotted;
+  margin-top: 2rem;
+  text-align: center;
+}
+

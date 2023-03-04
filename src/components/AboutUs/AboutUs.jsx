@@ -1,6 +1,7 @@
 import React from 'react'
 import CoreValues from '../CoreValues/CoreValues'
 import './AboutUs.css'
+import Testimonials from '../Testimonials/Testimonials'
 
 const AboutUs = () => {
   return (
@@ -24,6 +25,7 @@ const AboutUs = () => {
         </div>
 
         <CoreValues/>
+        <Testimonials/>
       </div>
     </div>
   )

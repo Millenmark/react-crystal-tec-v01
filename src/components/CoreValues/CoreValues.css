@@ -28,6 +28,7 @@
 }
 
 .core-value-text-item h3 {
+  color: var(--primary-color-400);
   text-transform: uppercase;
   margin-bottom: .25rem;
 }
