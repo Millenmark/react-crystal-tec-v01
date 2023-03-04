@@ -3,7 +3,10 @@
   margin-block: 2rem;
   /* padding-inline: 1.5rem; */
 }
-
+.service-section h2{
+  text-align: center;
+  margin-block: 4rem;
+}
 .service-background {
   position: fixed;
   z-index: -1;

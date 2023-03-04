@@ -4,13 +4,13 @@
   left: 0;
   padding-inline: 1.5rem;
   margin-top: 2rem;
-  padding-bottom: 5rem;
+  padding-block: 3rem;
   background-color: var(--primary-color-400);
 }
 
 .why-us-section h2 {
   /* position: relative; */
-  padding-top: 2.5rem;
+  /* padding-top: 2.5rem; */
   color: white;
   margin-block: 2rem;
 }
@@ -40,18 +40,29 @@
   /* background-color: white; */
 }
 
+.secret-btn {
+  margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 660px) {
+  .why-us-section {
+    padding-left: 0;
+    padding-block: 0rem;
+  }
+  .container {
+    margin-left: 0;
+  }
   .why-us-wrapper {
     display: flex;
   }
 
   .why-us-wrapper * {
-    flex: 1 0 250px;
+    flex: 1 0 290px;
   }
 
   .why-us-image {
     display: block;
-    box-shadow: 10px 10px 0px 0px var(--primary-color-200);
+    /* box-shadow: 10px 10px 0px 0px var(--primary-color-200); */
   }
 
   .why-us-image img {

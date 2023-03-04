@@ -1,7 +1,6 @@
 .service-card-item {
   margin-top: 1rem;
   /* border-top: 3px solid var(--primary-color-200); */
-  border-bottom: 3px solid var(--primary-color-200);
   position: relative;
   padding: .5rem;
   max-width: 250px;

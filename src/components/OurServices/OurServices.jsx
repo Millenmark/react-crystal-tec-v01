@@ -6,7 +6,6 @@ const OurServices = () => {
   return (
     <div className="service-section container">
       <img className="service-background" src="../../../assets/images/bg_services_section.jpg" alt="Background Image" />
-      <h2>We Offer</h2>
       <div className="service-cards">
         <ServiceCard 
         imageName={"it_outsourcing.svg"} 
@@ -25,7 +24,11 @@ const OurServices = () => {
         serviceName={"Cloud Solutions & Services"}
         serviceBody={"Cloud Solutions & Services provided by our company offer businesses the flexibility, scalability, and cost-efficiency they need to succeed in today's rapidly changing technology landscape. "}
         />
+      </div>
 
+        <h2>Our Services</h2>
+        
+      <div className="service-cards">
         <ServiceCard 
         imageName={"it_infrastructure.svg"} 
         serviceName={"IT Infrastructure Solutions & Services"}

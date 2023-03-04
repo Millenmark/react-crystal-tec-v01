@@ -13,7 +13,6 @@ const HomePage = () => {
   return (
     <div>
       <Hero/>
-      <SecretComponent/>
       <OurServices/>
       <WhyUs/>
       <ClientCarousel/>
