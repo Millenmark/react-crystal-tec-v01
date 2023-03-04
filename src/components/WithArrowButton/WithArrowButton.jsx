@@ -7,7 +7,7 @@ import './WithArrowButton.css'
 const WithArrowButton = ({pathTo, titleBtn, onClick}) => {
   return (
     <>
-      <Link to={pathTo}><button className="secret-btn">{titleBtn}<AiOutlineArrowRight className="secret-btn-icon" onClick={onClick}/></button></Link>
+      <Link to={pathTo}><button className="secret-btn" onClick={onClick}>{titleBtn}<AiOutlineArrowRight className="secret-btn-icon"/></button></Link>
     </>
   )
 }
