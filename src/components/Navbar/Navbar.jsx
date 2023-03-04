@@ -1,18 +1,24 @@
 import {FaBars, FaTimes} from 'react-icons/fa'
-import { useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useRef, useState, useEffect } from 'react'
+import { Link, useNavigate  } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
   const navRef = useRef()
-  
+  const navigate = useNavigate();
+
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav")
+    // navigate(e.target.pathname);
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [navigate]);
+
   const changeBackground = () => {
-    if(window.scrollY >= 80){
+    if(window.scrollY >= 10){
       setNavbar(true)
     } else {
       setNavbar(false)
@@ -20,6 +26,8 @@ const Navbar = () => {
   }
 
   window.addEventListener('scroll', changeBackground)
+
+ 
 
   return (
     <header className={navbar ? 'active' : null}>

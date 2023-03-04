@@ -1,11 +1,12 @@
 import React from 'react'
+import CoreValues from '../CoreValues/CoreValues'
 import './AboutUs.css'
 
 const AboutUs = () => {
   return (
     <div className="about-us-section">
-      <div className="about-us-wrapper">
-        <div className="about-us container">
+      <div className="about-us-wrapper container">
+        <div className="about-us">
           <h2>About Us</h2>
           <p>Crystal Tec is an IT Managed Service Provider specializing in Windows server, Network maintenance, Cyber Security and
           Cloud Computing Hosted Services.
@@ -21,6 +22,8 @@ const AboutUs = () => {
           <br/>
           With our IT Managed Service, you do not have to worry about taking care of your company’s IT infrastructure. We have the expertise to handle it for you, so you can focus on what you do best growing your business. </p>
         </div>
+
+        <CoreValues/>
       </div>
     </div>
   )

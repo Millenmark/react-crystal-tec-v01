@@ -10,6 +10,7 @@ import MarketPartners from '../components/MarketPartners/MarketPartners'
 import Appointment from '../components/Appointment/Appointment'
 
 const HomePage = () => {
+
   TabTitle('Crystal Tec: IT Solutions')
   return (
     <div>

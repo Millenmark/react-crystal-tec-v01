@@ -9,7 +9,7 @@ header {
   background-color: transparent;
   position: fixed;
   width: 100%;
-  transition: .2s;
+  /* transition: .2s; */
 }
 
 header.active {
