@@ -24,9 +24,9 @@ const Testimonials = () => {
           />
 
           <TestimonialCard 
-          testimonialBody={"Crystal Tec was our pre-opening IT consultants and was fundamental to the establishment of the resort. They have continued to provide IT support services from then on in a professional, personable, and efficient manner."}
-          nameInfo={"Mark Aquino"}
-          otherInfo={"Diyan sa Bahay"}
+          testimonialBody={"We Engaged Crystal Tec to upgrade our IT Systems. They supported us with expert advice and staged project plan and assisted with the transition with minimal impact on our clients and staff. We could access our files & mission-critical data from day 1"}
+          nameInfo={"Phil Barron"}
+          otherInfo={"Balina Community Transport"}
           />
         </div>
       </div>
