@@ -2,7 +2,7 @@ import { BrowserRouter, Route, RouterProvider, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
 
-
+import Messenger from "./components/Messenger/Messenger"
 import HomePage from "./pages/HomePage"
 import ProcessesPage from "./pages/ProcessesPage"
 import AboutPage from "./pages/AboutPage"
@@ -25,6 +25,7 @@ function App() {
           </Routes>
         </div>
       <Footer/>
+      <Messenger/>
       </BrowserRouter>
     </div>
   )
