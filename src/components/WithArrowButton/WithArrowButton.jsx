@@ -4,10 +4,10 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 
 import './WithArrowButton.css'
 
-const WithArrowButton = ({pathTo, titleBtn}) => {
+const WithArrowButton = ({pathTo, titleBtn, onClick}) => {
   return (
     <>
-      <Link to={pathTo}><button className="secret-btn">{titleBtn}<AiOutlineArrowRight className="secret-btn-icon"/></button></Link>
+      <Link to={pathTo}><button className="secret-btn">{titleBtn}<AiOutlineArrowRight className="secret-btn-icon" onClick={onClick}/></button></Link>
     </>
   )
 }

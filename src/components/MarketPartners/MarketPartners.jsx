@@ -1,42 +1,23 @@
+import LogoPartner from '../LogoPartner'
 import './MarketPartners.css'
 
 const MarketPartners = () => {
   return (
     <div className="market-partners-section">
-      <div className="market-partners-wrapper">
+      <div className="market-partners-wrapper container">
         <h2>Our Market Partners</h2>
         <div className="market-partners-logo">
-          <div className="market-partners-logo-div">
-            <img className="partner-img" src="../../../public/assets/images/sap_logo.png" alt="" />
-          </div>
 
-          <div className="market-partners-logo-div">
-            <img className="partner-img" src="../../../public/assets/images/microsoft_certified_logo.png" alt="" />
-          </div>
-
-          <div className="market-partners-logo-div">
-            <img className="partner-img" src="../../../public/assets/images/oracle_logo.png" alt="" />
-          </div>
-
-          <div className="market-partners-logo-div">
-            <img className="partner-img" src="../../../public/assets/images/vmware_logo.png" alt="" />
-          </div>
-
-          <div className="market-partners-logo-div">
-            <img className="partner-img" src="../../../public/assets/images/sap_logo.png" alt="" />
-          </div>
-
-          <div className="market-partners-logo-div">
-            <img className="partner-img" src="../../../public/assets/images/oracle_logo.png" alt="" />
-          </div>
-
-          <div className="market-partners-logo-div">
-            <img className="partner-img" src="../../../public/assets/images/microsoft_certified_logo.png" alt="" />
-          </div>
-
-          <div className="market-partners-logo-div">
-            <img className="partner-img" src="../../../public/assets/images/vmware_logo.png" alt="" />
-          </div>
+          <LogoPartner partnerLogo={"sap_logo.png"}/>
+          <LogoPartner partnerLogo={"oracle_logo.png"}/>
+          <LogoPartner partnerLogo={"microsoft_certified_logo.png"}/>
+          <LogoPartner partnerLogo={"vmware_logo.png"}/>
+          <LogoPartner partnerLogo={"storage_craft_logo.png"}/>
+          <LogoPartner partnerLogo={"smart_elock_logo.png"}/>
+          <LogoPartner partnerLogo={"trend_micro_logo.jpg"}/>
+          <LogoPartner partnerLogo={"accor_logo.png"}/>
+          <LogoPartner partnerLogo={"cisco_logo.png"}/>
+          <LogoPartner partnerLogo={"citrix_logo.png"}/>
         </div>
       </div>
     </div>

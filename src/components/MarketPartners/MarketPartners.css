@@ -22,25 +22,39 @@
 }
 
 .market-partners-logo-div {
-  width: 200px;
-  height: 110px;
+  width: 150px;
+  height: 80px;
+  margin: 3rem auto;
 }
 
 .partner-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 400px) {
   .market-partners-logo {
-    margin-top: 3rem;
+    padding-inline: 5rem;
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 }
+
+/* .market-partners-logo {
+  display: flex;
+} */
+
+/* @media screen and (min-width: 900px) {
+  .market-partners-logo {
+    margin-top: 3rem;
+    
+    
+    gap: 2rem;
+    
+  }
+} */
 

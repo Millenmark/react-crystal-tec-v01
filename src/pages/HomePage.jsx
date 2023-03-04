@@ -7,6 +7,7 @@ import SecretComponent from '../components/SecretComponent/SecretComponent'
 import WhyUs from '../components/WhyUs/WhyUs'
 import ClientCarousel from '../components/ClientCarousel/ClientCarousel'
 import MarketPartners from '../components/MarketPartners/MarketPartners'
+import Appointment from '../components/Appointment/Appointment'
 
 const HomePage = () => {
   TabTitle('Crystal Tec: IT Solutions')
@@ -17,6 +18,7 @@ const HomePage = () => {
       <WhyUs/>
       <ClientCarousel/>
       <MarketPartners/>
+      <Appointment/>
     </div>
   )
 }
