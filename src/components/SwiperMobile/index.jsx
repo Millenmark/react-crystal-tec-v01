@@ -21,20 +21,25 @@ const index = () => {
 
             <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
 
-            <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/elements_logo.webp" alt="" /></SwiperSlide>
+
+            <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/ibis_logo.png" alt="" /></SwiperSlide>
 
             <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/pullman_logo.jpeg" alt="" /></SwiperSlide>
 
             <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
 
-            <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
+            <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/elements_logo.webp" alt="" /></SwiperSlide>
+
+            <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/ibis_logo.png" alt="" /></SwiperSlide>
 
             <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/pullman_logo.jpeg" alt="" /></SwiperSlide>
 
             <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
 
-            <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/novotel_logo.jpeg" alt="" /></SwiperSlide>
-            
+            <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/elements_logo.webp" alt="" /></SwiperSlide>
+
+            <SwiperSlide><img className="client-swiper-image" src="../../../assets/images/ibis_logo.png" alt="" /></SwiperSlide>
           </Swiper>
         </div>
   )

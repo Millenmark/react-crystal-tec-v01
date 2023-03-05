@@ -1,0 +1,59 @@
+.service-page-heading {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+  background-color: rgba(0, 42, 182, 0.3);
+  background-image: url("../public/assets/images/background_page_2.jpg");
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-page-body {
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: overlay;
+  background-image: url("../public/assets/images/background_page_3.jpg");
+  background-position: center;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.service-img-div {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.service-page-text {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 700px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.service-benefits {
+  margin-top: 3rem;
+}
+
+.service-benefits h3 {
+  text-transform: uppercase;
+  padding-bottom: .5rem;
+}
+
+.benefit-item {
+  margin-block: 2rem;
+}
+
+.benefit-item dt {
+  font-weight: 700;
+  color: var(--primary-color-500);
+}

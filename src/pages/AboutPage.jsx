@@ -3,7 +3,6 @@ import { TabTitle } from '../TabTitle'
 
 import AboutHero from '../components/AboutHero/AboutHero'
 import AboutUs from '../components/AboutUs/AboutUs'
-import Appointment from '../components/Appointment/Appointment'
 
 const AboutPage = () => {
   TabTitle("About Us")
@@ -11,7 +10,6 @@ const AboutPage = () => {
     <div>
       <AboutHero/>
       <AboutUs/>
-      <Appointment/>
     </div>
   )
 }
