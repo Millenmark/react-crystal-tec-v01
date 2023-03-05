@@ -1,12 +1,18 @@
 .service-section {
+  background-image: url("../../../assets/images/bg_services_section.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
   position: relative;
-  margin-block: 5rem;
+  padding-block: 5rem;
   /* padding-inline: 1.5rem; */
 }
 .service-section h2{
   /* position: absolute; */
   text-align: center;
-  margin-block: 4rem;
+  margin-bottom: 4rem;
 
   /* top: 50%;
   left: 50%;
