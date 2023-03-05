@@ -25,8 +25,8 @@ const ServiceCardPage = () => {
               <h3>Benefits:</h3>
               <dl>
                 {
-                  service.serviceBenefits.map(benefit => (
-                    <div className="benefit-item">
+                  service.serviceBenefits.map((benefit, index) => (
+                    <div className="benefit-item" key={index}>
                       <dt>{benefit.benefitTitle}</dt>
                       <dd>{benefit.benefitDescription}</dd>
                     </div>
