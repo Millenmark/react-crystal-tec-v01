@@ -6,7 +6,7 @@ const OurProcess = () => {
     <div>
       <div className="our-processes-heading">
         <div className="our-processes-heading-title">
-          <h1>Our Process for your Success</h1>
+          <h1>Our Process For Your Success</h1>
           <h2>We aim to achieve a seamless partnership with you</h2>
         </div>
       </div>
