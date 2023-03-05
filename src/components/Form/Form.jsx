@@ -7,12 +7,12 @@ const Form = () => {
   const navigate = useNavigate()
   // Call the "useForm" hook in your function component
   const {state, submit} = useForm({
-    id: 'W7vwrIjH2t'
+    id: '4w_Z_U0k2_'
   });
  
   // Success message
   if (state.submitted) {
-    navigate('/');
+    navigate('/submitted');
   }
   
   return (

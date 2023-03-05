@@ -10,6 +10,7 @@ import ContactPage from "./pages/ContactPage"
 import ServicesPage from "./pages/ServicesPage"
 import ServiceCardPage from "./pages/ServiceCardPage"
 import Appointment from "./components/Appointment/Appointment"
+import FormSubmittedPage from "./pages/FormSubmittedPage"
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/processes" element={<ProcessesPage/>}></Route>
             <Route path="/contact" element={<ContactPage/>}></Route>
             <Route path="/services/:id" element={<ServiceCardPage/>}></Route>
+            <Route path="/submitted" element={<FormSubmittedPage/>}></Route>
           </Routes>
         </div>
         <Appointment/>

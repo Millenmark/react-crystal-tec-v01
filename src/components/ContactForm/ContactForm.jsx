@@ -1,6 +1,7 @@
 import React from 'react'
 import { RxMagnifyingGlass } from 'react-icons/rx'
 import {FaPhoneAlt} from 'react-icons/fa'
+import {MdEmail} from 'react-icons/md'
 
 import Form from '../Form/Form'
 
@@ -33,7 +34,7 @@ const ContactForm = () => {
           </div>
 
           <div className="contact-info-item">
-            <FaPhoneAlt className='contact-info-icon'/>
+            <MdEmail className='contact-info-icon'/>
             <div className="contact-info-text">
               <h2>Email</h2>
               <p>support@crystaltec.com.au</p>

@@ -6,6 +6,20 @@
 
 .form :where(input, select, textarea) {
   width: 100%;
+  border-radius: 5px;
+  margin-top: .2rem;
+  padding-inline: .5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  background-color: white;
+}
+
+.form input{
+  line-height: 2rem;
+}
+
+.form select {
+  height: 2.2rem;
 }
 
 .form textarea{
@@ -23,11 +37,12 @@
 }
 
 .form-btn {
+  cursor: pointer;
   margin-top: 1rem;
   margin-left: .5rem;
   color: white;
   outline: none;
   border: none;
   padding: .3rem .5rem;
-  background-color: #156595;
+  background-color: var(--primary-color-200);
 }
