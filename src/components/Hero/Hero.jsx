@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="video-background">
     <video autoPlay muted loop>
-      <source src="/assets/videos/hero_video_2.webm" type="video/webm" />
+      <source src="/assets/videos/hero_video.webm" type="video/webm" />
     </video>
     <div className="hero-content">
       <h1>You focus business growth,<br/>we take care of your technology</h1>
