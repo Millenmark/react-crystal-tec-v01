@@ -14,6 +14,10 @@
   background-color: white;
 }
 
+.form label {
+  font-weight: 600;
+}
+
 .form input{
   line-height: 2rem;
 }
@@ -43,11 +47,16 @@
   color: white;
   outline: none;
   border: none;
-  padding: .3rem .5rem;
+  padding: .4rem 1rem;
   background-color: var(--primary-color-200);
   transition: all .05s ease-out
 }
 
 .form-btn:hover {
-  transform: scale(1.05);
+  transform: scale(1.07);
+}
+
+.form-btn:active {
+  transform: scale(.9);
+  background-color: var(--primary-color-400);
 }

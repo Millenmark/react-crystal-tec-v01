@@ -2,6 +2,7 @@
   position: relative;
   color: white;
   background-color: var(--primary-color-400);
+  padding-bottom: 3rem;
 }
 
 .appointment-text {
@@ -17,3 +18,12 @@
   margin-bottom: .5rem;
   font-size: 3rem;
 }
+
+.appointment-btn-div {
+  margin-top: 3rem;
+}
+
+.appointment-btn-div .secret-btn {
+  margin: 0 auto;
+}
+

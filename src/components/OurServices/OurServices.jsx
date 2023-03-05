@@ -9,7 +9,7 @@ const OurServices = () => {
       {/* <img className="service-background" src="../../../assets/images/bg_services_section.jpg" alt="Background Image" /> */}
       <h2>Our Services</h2>
 
-      <div className="service-cards">
+      <div className="service-cards container">
         {
           services.map(service => (
             <ServiceCard

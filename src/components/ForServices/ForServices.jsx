@@ -20,6 +20,7 @@ const ForServices = () => {
                 <WithArrowButton
                 pathTo={`/services/${service.serviceId}`}
                 titleBtn="View Benefits"
+                hasArrow
                 />
               </div>
             </div>

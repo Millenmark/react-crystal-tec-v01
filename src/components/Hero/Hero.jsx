@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
+import WithArrowButton from '../WithArrowButton/WithArrowButton'
 import './Hero.css'
 
 const Hero = () => {
@@ -12,7 +13,7 @@ const Hero = () => {
       <h1>You focus business growth,<br/>we take care of your technology</h1>
       <br/>
       <h4>We are an IT Service Provider that delivers tailored and<br/> fully managed solutions that help you with any of your business IT needs. </h4>
-      <Link to="contact"><button className="cta" type="button">Get Started</button></Link>
+      <WithArrowButton pathTo={"contact"} titleBtn={"Get Started"}/>
     </div>
   </div>
   )

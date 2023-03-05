@@ -3,13 +3,18 @@
   cursor: pointer;
   position: relative;
   margin-top: 1.5rem;
-  padding: .5rem .8rem;
-  padding-right: 2.4rem;
+  padding: .8rem 1rem;
+  /* padding-right: 2.4rem; */
   border: none;
   font-weight: 500;
   color: white;
   background-color: var(--primary-color-200);
   transition: all .15s ease;
+
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .secret-btn:hover {
@@ -17,9 +22,12 @@
 }
 
 .secret-btn-icon {
-  position: absolute;
+  max-width: 20px;
+  /* aspect-ratio: 1; */
+  margin-left: .5rem;
+  /* position: absolute; */
   font-size: 1.3rem;
-  top: 50%;
-  transform: translateY(-50%);
-  right: .6rem;
+  /* top: 50%;
+  transform: translateY(-50%); */
+  /* right: .6rem; */
 }

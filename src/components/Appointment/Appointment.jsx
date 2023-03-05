@@ -19,7 +19,7 @@ const Appointment = () => {
           <h2>Get Expert Advice for Free</h2>
           <p>Our company is offering a valuable opportunity to schedule a free consultation with one of our experts. Whether you have questions about our products or services, need advice on a particular issue, or simply want to learn more about what we can offer you, our knowledgeable team members are available to provide personalized guidance and support.</p>
           <div className="appointment-btn-div">
-          <WithArrowButton pathTo={"#"} titleBtn={"Schedule a Meeting"} onClick={onClick}/>
+          <WithArrowButton pathTo={"#"} titleBtn={"Schedule a Meeting"} onClick={onClick} hasArrow/>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 
 const index = () => {
   return (
-    <div className="swiper-desktop">
+    <div className="swiper-desktop container">
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={20}
