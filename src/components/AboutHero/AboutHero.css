@@ -6,7 +6,7 @@
   background-size: cover;
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.3);
-  background-position: bottom 150px right 0px;
+  background-position: bottom 150px center;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
