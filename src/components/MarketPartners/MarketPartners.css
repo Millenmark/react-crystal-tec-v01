@@ -10,7 +10,7 @@
   linear-gradient(10deg, rgba(63, 53, 53, 0.281),
   rgba(77, 82, 102, 0.69)),
   url("../../../public/assets/images/our_partners_section_bg.png"); */
-  background-image: url("../../../public/assets/images/our_partners_section_bg.png");
+  background-image: url("../../../assets/images/our_partners_section_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(139, 142, 155, 0.671);

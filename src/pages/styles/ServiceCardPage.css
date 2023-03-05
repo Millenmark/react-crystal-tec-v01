@@ -2,13 +2,15 @@
   padding-top: 9rem;
   padding-bottom: 5rem;
   background-color: rgba(0, 42, 182, 0.3);
-  background-image: url("../public/assets/images/background_page_2.jpg");
+  background-image: url("../assets/images/background_page_2.jpg");
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  height: 20vh;
+  height: 30vh;
+  padding-inline: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +19,7 @@
 .service-page-body {
   background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: overlay;
-  background-image: url("../public/assets/images/background_page_3.jpg");
+  background-image: url("../assets/images/background_page_3.jpg");
   background-position: center;
   height: 100%;
   background-repeat: no-repeat;

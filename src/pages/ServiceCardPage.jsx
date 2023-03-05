@@ -2,6 +2,8 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { services } from '../ServiceList'
 
+import './styles/ServiceCardPage.css'
+
 const ServiceCardPage = () => {
   const {id} = useParams()
   const service = services.find(service => service.serviceId === Number(id))
@@ -33,7 +35,6 @@ const ServiceCardPage = () => {
               </dl>
             </div>
           </div>
-
         </div>
       </div>
     </div>

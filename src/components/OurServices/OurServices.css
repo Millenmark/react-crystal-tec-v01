@@ -4,8 +4,13 @@
   /* padding-inline: 1.5rem; */
 }
 .service-section h2{
+  /* position: absolute; */
   text-align: center;
   margin-block: 4rem;
+
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
 }
 .service-background {
   position: fixed;
@@ -20,7 +25,7 @@
   margin-top: .5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem 4rem;
+  gap: 5rem 4rem;
   justify-items: center;
   /* justify-content: space-between; */
 

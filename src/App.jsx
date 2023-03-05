@@ -11,10 +11,8 @@ import ServicesPage from "./pages/ServicesPage"
 import ServiceCardPage from "./pages/ServiceCardPage"
 import Appointment from "./components/Appointment/Appointment"
 
-import './App.css'
-function App() {
-  
 
+function App() {
   return (
     <div className="App">
       <BrowserRouter scrollRestoration="manual">
