@@ -6,8 +6,11 @@
   background-size: cover;
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.3);
-  background-position: 1rem;
+  background-position: bottom 150px right 0px;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-hero-wrapper {
