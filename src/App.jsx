@@ -30,7 +30,6 @@ function App() {
         </div>
         <Appointment/>
       <Footer/>
-      <Messenger/>
       </BrowserRouter>
     </div>
   )
