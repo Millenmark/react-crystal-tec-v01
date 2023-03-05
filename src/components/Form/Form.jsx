@@ -5,7 +5,6 @@ import FormSubmittedPage from '../../pages/FormSubmittedPage'
 
 import './Form.css'
 const Form = () => {
-  const navigate = useNavigate()
   // Call the "useForm" hook in your function component
   const {state, submit} = useForm({
     id: '4w_Z_U0k2_'
