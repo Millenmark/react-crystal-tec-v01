@@ -1,18 +1,18 @@
 .about-hero-section {
-  padding-top: 10rem;
-  height: 100vh;
+  padding-top: 4rem;
+  height: 40vh;
   width: 100%;
   background-image: url("../../../assets/images/company_image_2.jpg");
   background-size: cover;
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.3);
-  background-position: center;
+  background-position: 1rem;
   background-attachment: fixed;
 }
 
 .about-hero-wrapper {
   font-size: clamp(.8rem, 2vw, 1.5rem);
-  padding-top: 5rem;
+  /* padding-top: 1rem; */
   color: white;
   display: flex;
   justify-content: center;

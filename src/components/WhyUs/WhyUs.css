@@ -3,7 +3,7 @@
   width: 100%;
   left: 0;
   padding-inline: 1.5rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   padding-block: 3rem;
   background-color: var(--primary-color-400);
 }
