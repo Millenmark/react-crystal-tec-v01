@@ -1,6 +1,7 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
 import { useForm } from '@formcarry/react'
+
+import FormSubmittedPage from '../../pages/FormSubmittedPage'
 
 import './Form.css'
 const Form = () => {
@@ -12,7 +13,7 @@ const Form = () => {
  
   // Success message
   if (state.submitted) {
-    navigate('/submitted');
+    return <FormSubmittedPage/>
   }
   
   return (

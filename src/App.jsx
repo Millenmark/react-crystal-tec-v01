@@ -26,7 +26,6 @@ function App() {
             <Route path="/processes" element={<ProcessesPage/>}></Route>
             <Route path="/contact" element={<ContactPage/>}></Route>
             <Route path="/services/:id" element={<ServiceCardPage/>}></Route>
-            <Route path="/submitted" element={<FormSubmittedPage/>}></Route>
           </Routes>
         </div>
         <Appointment/>
