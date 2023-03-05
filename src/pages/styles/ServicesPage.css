@@ -10,12 +10,13 @@
   background-repeat: no-repeat;
   color: white;
   height: 40vh;
+  text-align: center;
   padding-inline: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.heading-title h2{
+.our-service-heading-title h2{
   font-size: 1em;
 }

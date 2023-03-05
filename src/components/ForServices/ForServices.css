@@ -38,6 +38,10 @@
     gap: 2rem;
   }
 
+  .for-service-img {
+    min-width: 150px;
+  }
+
   .for-service-item:not(:last-child) {
     margin-top: 3rem;
   }
@@ -47,6 +51,6 @@
   }
 
   .for-service-text {
-    max-width: 600px;
+    max-width: 720px;
   }
 }

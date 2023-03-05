@@ -7,7 +7,7 @@ const ServicesPage = () => {
   return (
     <div>
       <div className="our-service-heading">
-        <div className="heading-title">
+        <div className="our-service-heading-title">
           <h1>IT Support & Solutions</h1>
           <h2>Eliminate headaches with Crystal Tec’s IT Services that tailor fits to your business needs. </h2>
         </div>

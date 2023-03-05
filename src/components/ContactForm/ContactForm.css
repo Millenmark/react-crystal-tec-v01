@@ -1,0 +1,10 @@
+.contact-form-section {
+  padding-top: 8rem;
+  height: 100vh;
+
+  background-image: url("../../../assets/images/contact_form_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}

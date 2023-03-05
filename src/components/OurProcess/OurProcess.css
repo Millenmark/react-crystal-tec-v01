@@ -1,0 +1,74 @@
+.our-processes-heading {
+  padding-block: 5rem;
+  font-size: clamp(.8rem, 2vw, 1.5rem);
+  /* background-color: rgba(0, 42, 182, 0.3); */
+  background-image: url("../assets/images/background_image_2.png");
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 40vh;
+  padding-inline: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-processes-heading-title h2{
+  font-size: 1em;
+}
+
+.our-processes-content {
+  margin-block: 5rem;
+}
+
+.our-processes-content h3 {
+  color: var(--primary-color-500);
+  text-align: center;
+}
+
+.process-item {
+  margin-block: 1rem;
+  padding: 1rem;
+}
+
+.process-item-logo {
+  margin: 1rem auto;
+
+
+  border-radius: 50%;
+  position: relative;
+  max-width: 200px;
+  height: 200px;
+  aspect-ratio: 1;
+  background-color: var(--primary-color-400);
+  display: grid;
+  place-items: center;
+}
+
+.number {
+  font-size: 7rem;
+  font-weight: 700;
+  color: white;
+}
+
+.process-item-text {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .process-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .process-item-text {
+    margin: 0;
+  }
+}
+
