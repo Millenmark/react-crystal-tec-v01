@@ -45,4 +45,9 @@
   border: none;
   padding: .3rem .5rem;
   background-color: var(--primary-color-200);
+  transition: all .05s ease-out
+}
+
+.form-btn:hover {
+  transform: scale(1.05);
 }

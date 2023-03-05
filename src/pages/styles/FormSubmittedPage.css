@@ -1,0 +1,29 @@
+.form-submitted-section {
+  padding-top: 10rem;
+  height: 100vh;
+  background-color: var(--primary-color-400);
+}
+
+.form-submitted-message {
+  color: white;
+  text-align: center;
+}
+
+.form-submitted-icon {
+  margin: 0 auto;
+  position: relative;
+  max-width: 100px;
+
+}
+
+.form-submitted-plane-icon {
+  font-size: 5rem;
+}
+
+.form-submitted-check-icon {
+  position: absolute;
+  font-size: 2rem;
+  color: rgb(142, 187, 212);
+  bottom: 0;
+  right: .6rem;
+}
