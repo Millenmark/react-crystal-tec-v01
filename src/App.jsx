@@ -1,8 +1,7 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
-
 // import HomePage from "./pages/HomePage"
 // import AboutPage from "./pages/AboutPage"
 // import ServicesPage from "./pages/ServicesPage"
@@ -20,14 +19,6 @@ const LazyContactPage = React.lazy(() => import('./pages/ContactPage'))
 const LazyServiceCardPage = React.lazy(() => import('./pages/ServiceCardPage'))
 
 function App() {
-  const [showLoader, setShowLoader] = useState(true);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowLoader(false);
-    }, 5000); // set the duration of the loader to 3 seconds
-    return () => clearTimeout(timeout);
-  }, []);
 
   return (
     <div className="App">
@@ -36,42 +27,42 @@ function App() {
         <div className="page-container">
           <Routes>
             <Route path="/" element={
-              <React.Suspense fallback={showLoader && <Loader/>}>
+              <React.Suspense fallback={<Loader/>}>
                 <LazyHomePage/>
               </React.Suspense>
               }>
             </Route>
 
             <Route path="/about" element={
-              <React.Suspense fallback={showLoader && <Loader/>}>
+              <React.Suspense fallback={<Loader/>}>
                 <LazyAboutPage/>
               </React.Suspense>
               }>
             </Route>
 
             <Route path="/services" element={
-              <React.Suspense fallback={showLoader && <Loader/>}>
+              <React.Suspense fallback={<Loader/>}>
                 <LazyServicesPage/>
               </React.Suspense>
               }>
             </Route>
 
             <Route path="/processes" element={
-              <React.Suspense fallback={showLoader && <Loader/>}>
+              <React.Suspense fallback={<Loader/>}>
                 <LazyProcessesPage/>
               </React.Suspense>
               }>
             </Route>
 
             <Route path="/contact" element={
-              <React.Suspense fallback={showLoader && <Loader/>}>
+              <React.Suspense fallback={<Loader/>}>
                 <LazyContactPage/>
               </React.Suspense>
               }>
             </Route>
 
             <Route path="/services/:id" element={
-              <React.Suspense fallback={showLoader && <Loader/>}>
+              <React.Suspense fallback={<Loader/>}>
                 <LazyServiceCardPage/>
               </React.Suspense>
             }>
