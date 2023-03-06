@@ -9,7 +9,7 @@ const index = () => {
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={20}
-        slidesPerView={4}
+        slidesPerView={3}
         className="client-swiper"
         pagination={{clickable: true}}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
