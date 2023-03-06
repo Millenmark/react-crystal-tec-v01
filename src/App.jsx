@@ -3,16 +3,19 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
 
-import HomePage from "./pages/HomePage"
-import ProcessesPage from "./pages/ProcessesPage"
+// import HomePage from "./pages/HomePage"
 // import AboutPage from "./pages/AboutPage"
-import ContactPage from "./pages/ContactPage"
+
 import ServicesPage from "./pages/ServicesPage"
+import ProcessesPage from "./pages/ProcessesPage"
+import ContactPage from "./pages/ContactPage"
+
 import ServiceCardPage from "./pages/ServiceCardPage"
 import Appointment from "./components/Appointment/Appointment"
 
 import Loader from './components/Loader/Loader'
 
+const LazyHomePage = React.lazy(() => import('./pages/HomePage'))
 const LazyAboutPage = React.lazy(() => import('./pages/AboutPage'))
 
 
@@ -23,7 +26,11 @@ function App() {
       <Navbar/>
         <div className="page-container">
           <Routes>
-            <Route path="/" element={<HomePage/>}></Route>
+            <Route path="/" element={
+              <React.Suspense fallback={<Loader/>}>
+                <LazyHomePage/>
+              </React.Suspense>
+            }></Route>
             <Route path="/about" element={
               <React.Suspense fallback={<Loader/>}>
                 <LazyAboutPage/>
