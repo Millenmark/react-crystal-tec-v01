@@ -14,7 +14,7 @@ const MarketPartners = () => {
           <LogoPartner partnerLogo={"vmware_logo.png"}/>
           <LogoPartner partnerLogo={"storage_craft_logo.png"}/>
           <LogoPartner partnerLogo={"smart_elock_logo.png"}/>
-          <LogoPartner partnerLogo={"trend_micro_logo.jpg"}/>
+          <LogoPartner partnerLogo={"trend_micro_logo.png"}/>
           <LogoPartner partnerLogo={"accor_logo.png"}/>
           <LogoPartner partnerLogo={"cisco_logo.png"}/>
           <LogoPartner partnerLogo={"citrix_logo.png"}/>
