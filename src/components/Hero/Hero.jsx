@@ -14,7 +14,7 @@ const Hero = () => {
       </LazyLoad>
     
     <div className="hero-content">
-      <h1>ou focus business growth,<br/>we take care of your technology</h1>
+      <h1>You focus business growth,<br/>we take care of your technology</h1>
       <br/>
       <h4>We are an IT Service Provider that delivers tailored and<br/> fully managed solutions that help you with any of your business IT needs. </h4>
       <WithArrowButton pathTo={"contact"} titleBtn={"Get Started"}/>
