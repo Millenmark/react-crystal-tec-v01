@@ -8,7 +8,7 @@ const CoreValues = () => {
       <h2>Our Core Values</h2>
       <div className="core-value-item">
         <div className="core-value-image">
-          <img src="../../../assets/images/value_1.jpg" alt="" />
+          <img src="../../../assets/images/min_value_1.jpg" alt="" />
         </div>
         <div className="core-value-text">
           <div className="core-value-text-item">
@@ -26,7 +26,7 @@ const CoreValues = () => {
 
       <div className="core-value-item">
         <div className="core-value-image">
-          <img src="../../../assets/images/value_2.jpg" alt="" />
+          <img src="../../../assets/images/min_value_2.jpg" alt="" />
         </div>
         <div className="core-value-text">
           <div className="core-value-text-item">

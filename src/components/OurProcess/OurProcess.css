@@ -2,7 +2,7 @@
   padding-block: 5rem;
   font-size: clamp(.8rem, 2vw, 1.5rem);
   /* background-color: rgba(0, 42, 182, 0.3); */
-  background-image: url("../assets/images/background_image_2.png");
+  background-image: url("../assets/images/min_background_image_2.png");
   background-attachment: fixed;
   background-blend-mode: overlay;
   text-align: center;

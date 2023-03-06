@@ -11,7 +11,7 @@ const WhyUs = () => {
       <div className="">
         <div className='why-us-wrapper'>
           <div className="why-us-image">
-            <img src="../../../assets/images/company_image.jpg" alt="" loading='lazy'/>
+            <img src="../../../assets/images/min_company_image.jpg" alt="" loading='lazy'/>
           </div>
           <div className="why-us-text">
             <h2>Why Crystal Tec?</h2>

@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer-wrapper container">
         <div className="footer-column">
           <div className="footer-logo">
-            <Link to="/"><img src="/assets/images/ct_nav_logo.png" alt="logo"/></Link>
+            <Link to="/"><img src="/assets/images/min_ct_nav_logo.png" alt="logo"/></Link>
           </div>
           <div className="footer-socials">
             <BsFacebook className="social-icon"/>

@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <header className={navbar ? 'active' : null}>
       <div className="logo-div">
-        <Link to="/"><img src="/assets/images/ct_nav_logo.png" alt="logo" /></Link>
+        <Link to="/"><img src="/assets/images/min_ct_nav_logo.png" alt="logo" /></Link>
       </div>
       <nav ref={navRef}>
         <Link onClick={showNavbar} className="nav-link" to="/">Home</Link>
