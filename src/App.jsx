@@ -5,19 +5,19 @@ import Footer from "./components/Footer/Footer"
 
 // import HomePage from "./pages/HomePage"
 // import AboutPage from "./pages/AboutPage"
-
-import ServicesPage from "./pages/ServicesPage"
-import ProcessesPage from "./pages/ProcessesPage"
-import ContactPage from "./pages/ContactPage"
-
-import ServiceCardPage from "./pages/ServiceCardPage"
+// import ServicesPage from "./pages/ServicesPage"
+// import ProcessesPage from "./pages/ProcessesPage"
+// import ContactPage from "./pages/ContactPage"
+// import ServiceCardPage from "./pages/ServiceCardPage"
 import Appointment from "./components/Appointment/Appointment"
-
 import Loader from './components/Loader/Loader'
 
 const LazyHomePage = React.lazy(() => import('./pages/HomePage'))
 const LazyAboutPage = React.lazy(() => import('./pages/AboutPage'))
-
+const LazyServicesPage = React.lazy(() => import('./pages/ServicesPage'))
+const LazyProcessesPage = React.lazy(() => import('./pages/ProcessesPage'))
+const LazyContactPage = React.lazy(() => import('./pages/ContactPage'))
+const LazyServiceCardPage = React.lazy(() => import('./pages/ServiceCardPage'))
 
 function App() {
   return (
@@ -30,16 +30,43 @@ function App() {
               <React.Suspense fallback={<Loader/>}>
                 <LazyHomePage/>
               </React.Suspense>
-            }></Route>
+              }>
+            </Route>
+
             <Route path="/about" element={
               <React.Suspense fallback={<Loader/>}>
                 <LazyAboutPage/>
               </React.Suspense>
-            }></Route>
-            <Route path="/services" element={<ServicesPage/>}></Route>
-            <Route path="/processes" element={<ProcessesPage/>}></Route>
-            <Route path="/contact" element={<ContactPage/>}></Route>
-            <Route path="/services/:id" element={<ServiceCardPage/>}></Route>
+              }>
+            </Route>
+
+            <Route path="/services" element={
+              <React.Suspense fallback={<Loader/>}>
+                <LazyServicesPage/>
+              </React.Suspense>
+              }>
+            </Route>
+
+            <Route path="/processes" element={
+              <React.Suspense fallback={<Loader/>}>
+                <LazyProcessesPage/>
+              </React.Suspense>
+              }>
+            </Route>
+
+            <Route path="/contact" element={
+              <React.Suspense fallback={<Loader/>}>
+                <LazyContactPage/>
+              </React.Suspense>
+              }>
+            </Route>
+
+            <Route path="/services/:id" element={
+              <React.Suspense fallback={<Loader/>}>
+                <LazyServiceCardPage/>
+              </React.Suspense>
+            }>
+            </Route>
           </Routes>
         </div>
         <Appointment/>

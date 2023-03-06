@@ -89,9 +89,9 @@ a {
   }
 }
 
-.page-container {
-  /* padding-top: 5rem; */
-}
+/* .page-container {
+  padding-top: 5rem;
+} */
 
 .container {
   width: min(100% - 1rem, 1120px) !important;
