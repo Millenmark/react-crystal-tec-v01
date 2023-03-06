@@ -1,5 +1,4 @@
 import React from 'react'
-import LazyLoad from 'react-lazy-load'
 
 import WithArrowButton from '../WithArrowButton/WithArrowButton'
 import './Hero.css'
@@ -7,12 +6,9 @@ import './Hero.css'
 const Hero = () => {
   return (
     <div className="video-background">
-      <LazyLoad>
-        <video autoPlay muted loop>
-        <source src="/assets/videos/hero_video.webm" type="video/webm" />
-        </video>
-      </LazyLoad>
-    
+    <video autoPlay muted loop>
+      <source src="/assets/videos/hero_video.webm" type="video/webm" />
+    </video>
     <div className="hero-content">
       <h1>You focus business growth,<br/>we take care of your technology</h1>
       <br/>
