@@ -1,5 +1,5 @@
 import React from 'react'
-import videoBg from '../../../public/assets/videos/hero_video.webm'
+import videoBg from '../../../public/assets/videos/hero_video_720.mp4'
 
 import WithArrowButton from '../WithArrowButton/WithArrowButton'
 import './Hero.css'
