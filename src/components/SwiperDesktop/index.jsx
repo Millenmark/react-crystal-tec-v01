@@ -10,7 +10,6 @@ const index = () => {
         modules={[Pagination, Autoplay]}
         spaceBetween={20}
         slidesPerView={4}
-        onSwiper={(swiper) => console.log(swiper)}
         className="client-swiper"
         pagination={{clickable: true}}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
