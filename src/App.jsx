@@ -11,6 +11,8 @@ import ServicesPage from "./pages/ServicesPage"
 import ServiceCardPage from "./pages/ServiceCardPage"
 import Appointment from "./components/Appointment/Appointment"
 
+import Loader from './components/Loader/Loader'
+
 const LazyAboutPage = React.lazy(() => import('./pages/AboutPage'))
 
 
@@ -23,7 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage/>}></Route>
             <Route path="/about" element={
-              <React.Suspense fallback="Loading...">
+              <React.Suspense fallback={<Loader/>}>
                 <LazyAboutPage/>
               </React.Suspense>
             }></Route>
