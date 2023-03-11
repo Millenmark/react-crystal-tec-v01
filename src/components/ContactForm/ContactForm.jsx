@@ -9,13 +9,13 @@ import './ContactForm.css'
 
 const ContactForm = () => {
   return (
-    <div className='contact-form-section'>
+    <div className='contact-form-section '>
       <div className="contact-form-heading">
         <h1>Contact Us</h1>
         <p>Get strength from the inside out with a business partner focused on seamless collaboration.</p>
       </div>
       
-      <div className="contact-form-wrapper">
+      <div className="contact-form-wrapper container">
         <div className="contact-info">
           <div className="contact-info-item">
             <RxMagnifyingGlass className='contact-info-icon'/>
